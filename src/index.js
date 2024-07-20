@@ -14,7 +14,7 @@ const port = process.env.PORT ;
 
 app.use(cors())
 
-app.get('/courses', (req, res) => {
+app.get('/', (req, res) => {
 
     const courses = [
         {
